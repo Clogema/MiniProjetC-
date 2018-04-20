@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< Updated upstream
   "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Addition.cpp" "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Addition.cpp.o"
   "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Constante.cpp" "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Constante.cpp.o"
   "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Division.cpp" "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Division.cpp.o"
@@ -12,6 +13,16 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Operateur.cpp" "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Operateur.cpp.o"
   "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Soustraction.cpp" "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Soustraction.cpp.o"
   "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/main.cpp" "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/main.cpp.o"
+=======
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Addition.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Addition.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Constante.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Constante.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Division.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Division.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Expression.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Expression.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Multiplication.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Operateur.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Operateur.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/Soustraction.cpp.o"
+  "/home/isen/Documents/M1/c++/MiniProjetC-/main.cpp" "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir/main.cpp.o"
+>>>>>>> Stashed changes
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
