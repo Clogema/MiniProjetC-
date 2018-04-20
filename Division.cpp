@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Division::Division(Constante e1, Constante e2) {
+Division::Division(Expression* e1, Expression* e2) {
     
     _operandeGauche=e1;
     _operandeDroite=e2;
@@ -16,18 +16,18 @@ Division::Division(Constante e1, Constante e2) {
 
 float Division::Calculer(){
    
-    return  _operandeGauche.Calculer() / _operandeDroite.Calculer();
+    return  _operandeGauche->Calculer() / _operandeDroite->Calculer();
 };
 
-void Division::Afficher(){
-    _operandeGauche.Afficher();
+void Division::Afficher(ostream &params){
+    _operandeGauche->Afficher(params);
     cout<< "/";
-    _operandeDroite.Afficher();
+    _operandeDroite->Afficher(params);
 }
 
 void Division::Afficher_npi(){
-    _operandeGauche.Afficher();
-    _operandeDroite.Afficher();
+    _operandeGauche->Afficher_npi();
+    _operandeDroite->Afficher_npi();
     cout<< "/";
 }
 

@@ -17,7 +17,7 @@ public:
     Constante(const Constante& c);
     ~Constante();
 
-    void Afficher();
+    void Afficher(ostream &params);
     void Afficher_npi();
     float Calculer();
 };

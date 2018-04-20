@@ -11,16 +11,16 @@
 class Multiplication : public Operateur{
     
 public:
-    Multiplication(Constante e1, Constante e2);
+    Multiplication(Expression* e1, Expression* e2);
     Multiplication(const Multiplication& orig);
-    void Afficher();
+    void Afficher(ostream &params);
     void Afficher_npi();
     float Calculer();
     ~Multiplication();
     
 private:
-    Constante _operandeGauche;
-    Constante _operandeDroite;
+    Expression* _operandeGauche;
+    Expression* _operandeDroite;
 
 };
 #endif //PROJET_MULTIPLICATION_H

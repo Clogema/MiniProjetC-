@@ -16,17 +16,7 @@ Operateur::Operateur() {
 Operateur::Operateur(const Operateur& orig) {
 }
 
-float Operateur::Calculer(){
-    return 0;
-};
 
-void Operateur::Afficher(){
-    
-};
-
-void Operateur::Afficher_npi(){
-    
-};
 
 Operateur::~Operateur() {
     

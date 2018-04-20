@@ -5,11 +5,12 @@
 #include "Soustraction.h"
 #include <cstdlib>
 #include <stack>
+#include <fstream>
 using namespace std;
 
 
 int main() {
-
+/*
     string chaine;
     Expression *e1, *e2;
     stack <Expression*> pile;
@@ -43,7 +44,15 @@ int main() {
             else if (chaine == "/") {}
         }
     }while(chaine != "=");
-
+*/
+    Expression *e1 = new Constante(10);
+    
+    
+    string s = "s";
+    if( s == "s"){
+        ofstream fichier("test.txt");  // ouverture en écriture avec effacement du fichier ouvert
+        e1->Afficher(fichier);
+    };
 
         return 0;
 }

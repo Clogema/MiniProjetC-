@@ -19,17 +19,17 @@ float Soustraction::Calculer(){
     return  _operandeGauche->Calculer() - _operandeDroite->Calculer();
 };
 
-void Soustraction::Afficher(){
+void Soustraction::Afficher(ostream &params){
     cout << "(";
-    _operandeGauche->Afficher();
+    _operandeGauche->Afficher(params);
     cout<< "-";
-    _operandeDroite->Afficher();
+    _operandeDroite->Afficher(params);
     cout<< ")";
 }
 
 void Soustraction::Afficher_npi(){
-    _operandeGauche->Afficher();
-    _operandeDroite->Afficher();
+    _operandeGauche->Afficher_npi();
+    _operandeDroite->Afficher_npi();
     cout<< "-";
 }
 

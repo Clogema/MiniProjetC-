@@ -9,19 +9,20 @@
 #include "Constante.h"
 #include "Operateur.h"
 
+
 class Division : public Operateur {
     
 public:
-    Division(Constante e1, Constante e2);
+    Division(Expression* e1, Expression* e2);
     Division(const Division& orig);
-    void Afficher();
+    void Afficher(ostream &params);
     void Afficher_npi();
     float Calculer();
     ~Division();
     
 private:
-    Constante _operandeGauche;
-    Constante _operandeDroite;
+    Expression* _operandeGauche;
+    Expression* _operandeDroite;
 
 };
 

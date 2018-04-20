@@ -5,6 +5,7 @@
 #include "Addition.h"
 #include <iostream>
 
+
 using namespace std;
 
 Addition::Addition(Expression* e1, Expression* e2) {
@@ -17,17 +18,17 @@ float Addition::Calculer(){
     return  _operandeGauche->Calculer() + _operandeDroite->Calculer();
 };
 
-void Addition::Afficher(){
-    cout << "(";
-    _operandeGauche->Afficher();
-    cout<< "+";
-    _operandeDroite->Afficher();
-    cout<< ")";
+void Addition::Afficher(ostream &params){
+    params << "(";
+    _operandeGauche->Afficher(params);
+    params<< "+";
+    _operandeDroite->Afficher(params);
+    params<< ")";
 }
 
 void Addition::Afficher_npi(){
-    _operandeGauche->Afficher();
-    _operandeDroite->Afficher();
+    _operandeGauche->Afficher_npi();
+    _operandeDroite->Afficher_npi();
     cout<< "+";
 }
 

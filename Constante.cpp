@@ -20,8 +20,8 @@ Constante::~Constante(){
     cout << "Destructeur Constante" << endl;
 }
 
-void Constante::Afficher() {
-    cout << _valeur;
+void Constante::Afficher(ostream &params) {
+    params << _valeur;
 }
 
 

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Multiplication::Multiplication(Constante e1, Constante e2) {
+Multiplication::Multiplication(Expression* e1, Expression* e2) {
     
     _operandeGauche=e1;
     _operandeDroite=e2;
@@ -16,18 +16,18 @@ Multiplication::Multiplication(Constante e1, Constante e2) {
 
 float Multiplication::Calculer(){
    
-    return  _operandeGauche.Calculer() * _operandeDroite.Calculer();
+    return  _operandeGauche->Calculer() * _operandeDroite->Calculer();
 };
 
-void Multiplication::Afficher(){
-    _operandeGauche.Afficher();
+void Multiplication::Afficher(ostream &params){
+    _operandeGauche->Afficher(params);
     cout<< "*";
-    _operandeDroite.Afficher();
+    _operandeDroite->Afficher(params);
 }
 
 void Multiplication::Afficher_npi(){
-    _operandeGauche.Afficher();
-    _operandeDroite.Afficher();
+    _operandeGauche->Afficher_npi();
+    _operandeDroite->Afficher_npi();
     cout<< "*";
 }
 
