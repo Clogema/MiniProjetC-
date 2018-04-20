@@ -14,16 +14,10 @@ using namespace std;
 
 
 int main() {
-    int x, y;
-    cout << "A :";
-    cin >> x;
-    cout << "B :";
-    cin >> y;
-    
-    Addition *resultat = new Addition(x, y);
-    resultat-> ~Addition(); 
-     
-
+    float c;
+    cout << "Expression :";
+    cin >> c;
+    if (c )
     return 0;
 }
 

@@ -5,6 +5,8 @@
 #ifndef ADDITION_H
 #define ADDITION_H
 
+#include "Expression.h"
+
 class Addition {
     
 public:

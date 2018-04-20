@@ -15,7 +15,7 @@ public:
     Operateur(const Addition& orig);
     virtual void Afficher();
     virtual void Afficher_npi();
-    virtual void Calculer();
+    virtual float Calculer();
     ~Operateur();
     
 private:
