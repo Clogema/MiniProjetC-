@@ -6,14 +6,16 @@
 #define PROJET_EXPRESSION_H
 
 
+#include "Addition.h"
+
 class Expression {
     
 public:
     Expression();
     Expression(const Addition& orig);
-    virtual void Afficher();
-    virtual void Afficher_npi();
-    virtual void Calculer();
+    virtual void Afficher() = 0;
+    virtual void Afficher_npi() = 0;
+    virtual void Calculer() = 0;
     ~Expression();
     
 private:
