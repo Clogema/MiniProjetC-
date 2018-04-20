@@ -1,13 +1,13 @@
-#include <iostream>
+/*#include <iostream>
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
-}
-/*
+}*/
+
 #include <iostream>
 #include <string>
-#include "addition.h"
+#include "Addition.h"
 #include <cstdlib>
 
 using namespace std;
@@ -20,11 +20,11 @@ int main() {
     cout << "B :";
     cin >> y;
     
-    addition *resultat = new addition(x, y);
-    resultat-> ~addition(); 
+    Addition *resultat = new Addition(x, y);
+    resultat-> ~Addition(); 
      
 
     return 0;
 }
-*/
+
 
