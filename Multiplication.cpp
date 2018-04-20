@@ -20,14 +20,15 @@ float Multiplication::Calculer(){
 };
 
 void Multiplication::Afficher(){
-    cout << "(";
     _operandeGauche.Afficher();
     cout<< "*";
     _operandeDroite.Afficher();
-    cout<< ")";
 }
 
 void Multiplication::Afficher_npi(){
+    _operandeGauche.Afficher();
+    _operandeDroite.Afficher();
+    cout<< "*";
 }
 
 Multiplication::Multiplication(const Multiplication& orig) {

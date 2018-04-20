@@ -26,6 +26,9 @@ void Addition::Afficher(){
 }
 
 void Addition::Afficher_npi(){
+    _operandeGauche.Afficher();
+    _operandeDroite.Afficher();
+    cout<< "+";
 }
 
 Addition::Addition(const Addition& orig) {

@@ -20,14 +20,15 @@ float Division::Calculer(){
 };
 
 void Division::Afficher(){
-    cout << "(";
     _operandeGauche.Afficher();
     cout<< "/";
     _operandeDroite.Afficher();
-    cout<< ")";
 }
 
 void Division::Afficher_npi(){
+    _operandeGauche.Afficher();
+    _operandeDroite.Afficher();
+    cout<< "/";
 }
 
 Division::Division(const Division& orig) {
