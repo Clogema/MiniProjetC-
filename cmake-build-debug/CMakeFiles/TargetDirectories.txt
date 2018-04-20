@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir
+=======
+/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/projet.dir
+>>>>>>> Stashed changes
