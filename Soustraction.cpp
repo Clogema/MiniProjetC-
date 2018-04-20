@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Soustraction::Soustraction(Constante e1, Constante e2) {
+Soustraction::Soustraction(Expression *e1, Expression *e2) {
     
     _operandeGauche=e1;
     _operandeDroite=e2;
@@ -16,20 +16,20 @@ Soustraction::Soustraction(Constante e1, Constante e2) {
 
 float Soustraction::Calculer(){
    
-    return  _operandeGauche.Calculer() - _operandeDroite.Calculer();
+    return  _operandeGauche->Calculer() - _operandeDroite->Calculer();
 };
 
 void Soustraction::Afficher(){
     cout << "(";
-    _operandeGauche.Afficher();
+    _operandeGauche->Afficher();
     cout<< "-";
-    _operandeDroite.Afficher();
+    _operandeDroite->Afficher();
     cout<< ")";
 }
 
 void Soustraction::Afficher_npi(){
-    _operandeGauche.Afficher();
-    _operandeDroite.Afficher();
+    _operandeGauche->Afficher();
+    _operandeDroite->Afficher();
     cout<< "-";
 }
 

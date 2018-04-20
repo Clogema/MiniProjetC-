@@ -11,7 +11,7 @@
 class Addition : public Operateur {
     
 public:
-    Addition(Constante e1, Constante e2);
+    Addition(Expression* e1, Expression* e2);
     Addition(const Addition& orig);
     void Afficher();
     void Afficher_npi();
@@ -19,8 +19,8 @@ public:
     ~Addition();
     
 private:
-    Constante _operandeGauche;
-    Constante _operandeDroite;
+    Expression* _operandeGauche;
+    Expression* _operandeDroite;
 
 };
 

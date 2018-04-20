@@ -11,7 +11,7 @@
 class Soustraction : public Operateur{
     
 public:
-    Soustraction(Constante e1, Constante e2);
+    Soustraction(Expression *e1, Expression *e2);
     Soustraction(const Soustraction& orig);
     void Afficher();
     void Afficher_npi();
@@ -19,8 +19,8 @@ public:
     ~Soustraction();
     
 private:
-    Constante _operandeGauche;
-    Constante _operandeDroite;
+    Expression* _operandeGauche;
+    Expression* _operandeDroite;
 
 };
 

@@ -7,27 +7,27 @@
 
 using namespace std;
 
-Addition::Addition(Constante e1, Constante e2) {
+Addition::Addition(Expression* e1, Expression* e2) {
     _operandeGauche=e1;
     _operandeDroite=e2;
 }
 
 float Addition::Calculer(){
    
-    return  _operandeGauche.Calculer() + _operandeDroite.Calculer();
+    return  _operandeGauche->Calculer() + _operandeDroite->Calculer();
 };
 
 void Addition::Afficher(){
     cout << "(";
-    _operandeGauche.Afficher();
+    _operandeGauche->Afficher();
     cout<< "+";
-    _operandeDroite.Afficher();
+    _operandeDroite->Afficher();
     cout<< ")";
 }
 
 void Addition::Afficher_npi(){
-    _operandeGauche.Afficher();
-    _operandeDroite.Afficher();
+    _operandeGauche->Afficher();
+    _operandeDroite->Afficher();
     cout<< "+";
 }
 

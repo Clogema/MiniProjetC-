@@ -17,7 +17,6 @@ public:
     ~Expression();
     
 private:
-    float _constante;
 
 };
 
