@@ -8,13 +8,16 @@
 class Addition {
     
 public:
-    Addition(int x, int y);
+    Addition(Expression e1, Expression e2);
     Addition(const Addition& orig);
+    void Addition::Afficher();
+    void Addition::Afficher_npi();
+    float Addition::Calculer();
     ~Addition();
     
 private:
-    int _x;
-    int _y;
+    Expression _operandeGauche;
+    Expression _operandeDroite;
 
 };
 

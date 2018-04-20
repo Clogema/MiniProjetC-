@@ -17,13 +17,13 @@ Expression::Expression(const Addition& orig) {
 }
 
 virtual void Expression::Calculer(){
-    
 };
 
-virtual void Expression::Afficher()=0;
+virtual void Expression::Afficher(){   
+};
 
-virtual void Expression::Afficher_npi()=0;
+virtual void Expression::Afficher_npi(){   
+};
 
 Expression::~Expression() {
-    
 }

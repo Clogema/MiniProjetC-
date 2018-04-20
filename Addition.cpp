@@ -7,15 +7,27 @@
 
 using namespace std;
 
-Addition::Addition(int x, int y) {
-    int R;
-    _x=x;
-    _y=y;
-    R=_x+_y;
-    cout << "A+B = " << R;
-    cout << endl;
+Addition::Addition(Expression e1, Expression e2) {
+    Expression Add;
+    _operandeGauche=e1;
+    _operandeDroite=e2;
 }
 
+float Addition::Calculer(){
+   
+    return  _operandeGauche.Calculer() + _operandeDroite.Calculer();
+};
+
+void Addition::Afficher(){
+    cout << "(";
+    _operandeGauche.Afficher();
+    cout<< "+";
+    _operandeDroite.Afficher();
+    cout<< ")";
+}
+
+void Addition::Afficher_npi(){
+}
 
 Addition::Addition(const Addition& orig) {
 }
