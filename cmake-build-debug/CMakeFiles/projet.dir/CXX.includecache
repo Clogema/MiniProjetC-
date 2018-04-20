@@ -99,8 +99,14 @@ Constante.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Constante.h
 Soustraction.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.h
+Multiplication.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.h
+Division.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Division.h
 cstdlib
 -
 stack
+-
+queue
 -
 

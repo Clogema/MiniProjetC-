@@ -7,17 +7,14 @@
 using namespace std;
 
 Constante::Constante(float valeur){
-    cout << "Constructeur Point" << endl;
     _valeur = valeur;
 }
 
 Constante::Constante(const Constante& c) {
-    cout << "Constructeur par recopie Constante" << endl;
     _valeur = c._valeur;
 }
 
 Constante::~Constante(){
-    cout << "Destructeur Constante" << endl;
 }
 
 void Constante::Afficher() {

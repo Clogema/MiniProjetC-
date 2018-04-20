@@ -15,10 +15,8 @@ Expression::Expression() {
 Expression::Expression(const Expression& orig) {
 }
 
-/*void Expression::Afficher(){
-    cout << "(";
-    Expression->Afficher();;
-}*/
+void Expression::Afficher(){
+}
 
 Expression::~Expression() {
 }

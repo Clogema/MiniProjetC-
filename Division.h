@@ -12,7 +12,7 @@
 class Division : public Operateur {
     
 public:
-    Division(Constante e1, Constante e2);
+    Division(Expression *e1, Expression *e2);
     Division(const Division& orig);
     void Afficher();
     void Afficher_npi();
@@ -20,8 +20,8 @@ public:
     ~Division();
     
 private:
-    Constante _operandeGauche;
-    Constante _operandeDroite;
+    Expression* _operandeGauche;
+    Expression* _operandeDroite;
 
 };
 

@@ -8,8 +8,8 @@
 using namespace std;
 
 Addition::Addition(Expression* e1, Expression* e2) {
-    _operandeGauche=e1;
-    _operandeDroite=e2;
+    _operandeGauche=e2;
+    _operandeDroite=e1;
 }
 
 float Addition::Calculer(){

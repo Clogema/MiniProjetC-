@@ -8,26 +8,29 @@
 
 using namespace std;
 
-Multiplication::Multiplication(Constante e1, Constante e2) {
+Multiplication::Multiplication(Expression *e1, Expression *e2) {
     
-    _operandeGauche=e1;
-    _operandeDroite=e2;
+    _operandeGauche=e2;
+    _operandeDroite=e1;
 }
 
 float Multiplication::Calculer(){
    
-    return  _operandeGauche.Calculer() * _operandeDroite.Calculer();
+    return  _operandeGauche->Calculer() * _operandeDroite->Calculer();
 };
 
 void Multiplication::Afficher(){
-    _operandeGauche.Afficher();
+
+    cout << "(";
+    _operandeGauche->Afficher();
     cout<< "*";
-    _operandeDroite.Afficher();
+    _operandeDroite->Afficher();
+    cout << ")";
 }
 
 void Multiplication::Afficher_npi(){
-    _operandeGauche.Afficher();
-    _operandeDroite.Afficher();
+    _operandeGauche->Afficher();
+    _operandeDroite->Afficher();
     cout<< "*";
 }
 
