@@ -31,8 +31,16 @@ Expression.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Division.cpp
 Division.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Division.h
+Expression.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
+iostream
+-
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Division.h
+Constante.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Constante.h
+Operateur.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Operateur.h
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Expression.cpp
 Expression.h
@@ -43,6 +51,18 @@ iostream
 /home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.cpp
+Multiplication.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.h
+Expression.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
+iostream
+-
+
+/home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.h
+Constante.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Constante.h
+Operateur.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Operateur.h
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Operateur.cpp
 Operateur.h
@@ -57,8 +77,8 @@ Expression.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.cpp
 Soustraction.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.h
-Expression.h
-/home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
+Constante.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Constante.h
 iostream
 -
 

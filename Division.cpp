@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Division::Division(Expression e1, Expression e2) {
+Division::Division(Constante e1, Constante e2) {
     
     _operandeGauche=e1;
     _operandeDroite=e2;

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Multiplication::Multiplication(Expression e1, Expression e2) {
+Multiplication::Multiplication(Constante e1, Constante e2) {
     
     _operandeGauche=e1;
     _operandeDroite=e2;

@@ -11,13 +11,20 @@ CMakeFiles/projet.dir/Constante.cpp.o: ../Constante.cpp
 CMakeFiles/projet.dir/Constante.cpp.o: ../Constante.h
 CMakeFiles/projet.dir/Constante.cpp.o: ../Expression.h
 
+CMakeFiles/projet.dir/Division.cpp.o: ../Constante.h
 CMakeFiles/projet.dir/Division.cpp.o: ../Division.cpp
 CMakeFiles/projet.dir/Division.cpp.o: ../Division.h
+CMakeFiles/projet.dir/Division.cpp.o: ../Expression.h
+CMakeFiles/projet.dir/Division.cpp.o: ../Operateur.h
 
 CMakeFiles/projet.dir/Expression.cpp.o: ../Expression.cpp
 CMakeFiles/projet.dir/Expression.cpp.o: ../Expression.h
 
+CMakeFiles/projet.dir/Multiplication.cpp.o: ../Constante.h
+CMakeFiles/projet.dir/Multiplication.cpp.o: ../Expression.h
 CMakeFiles/projet.dir/Multiplication.cpp.o: ../Multiplication.cpp
+CMakeFiles/projet.dir/Multiplication.cpp.o: ../Multiplication.h
+CMakeFiles/projet.dir/Multiplication.cpp.o: ../Operateur.h
 
 CMakeFiles/projet.dir/Operateur.cpp.o: ../Expression.h
 CMakeFiles/projet.dir/Operateur.cpp.o: ../Operateur.cpp

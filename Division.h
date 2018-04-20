@@ -6,19 +6,22 @@
 #define PROJET_DIVISION_H
 
 
-class Division {
+#include "Constante.h"
+#include "Operateur.h"
+
+class Division : public Operateur {
     
 public:
-    Division(Expression e1, Expression e2);
+    Division(Constante e1, Constante e2);
     Division(const Division& orig);
-    void Division::Afficher();
-    void Division::Afficher_npi();
-    float Division::Calculer();
+    void Afficher();
+    void Afficher_npi();
+    float Calculer();
     ~Division();
     
 private:
-    Expression _operandeGauche;
-    Expression _operandeDroite;
+    Constante _operandeGauche;
+    Constante _operandeDroite;
 
 };
 
