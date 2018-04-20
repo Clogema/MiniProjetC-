@@ -8,13 +8,21 @@
 
 using namespace std;
 
-Expression::Expression() {
-   
+Expression::Expression(float c) {
+   _constante = c;
 }
 
 
 Expression::Expression(const Addition& orig) {
 }
+
+virtual void Expression::Calculer(){
+    
+};
+
+virtual void Expression::Afficher(){
+    
+};
 
 Expression::~Expression() {
     

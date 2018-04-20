@@ -11,10 +11,12 @@ class Expression {
 public:
     Expression();
     Expression(const Addition& orig);
+    virtual void Afficher();
+    virtual void Calculer();
     ~Expression();
     
 private:
-   
+    float _constante;
 
 };
 
