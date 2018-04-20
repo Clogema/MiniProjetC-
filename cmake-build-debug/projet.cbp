@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug"/>
+				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug"/>
+				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug"/>
+				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projet">
-				<Option output="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug"/>
+				<Option output="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projet/fast">
-				<Option output="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug"/>
+				<Option output="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,41 +77,59 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Addition.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Addition.cpp">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Constante.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Addition.h">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Division.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Constante.cpp">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Division.h">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Constante.h">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Expression.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Division.cpp">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Multiplication.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Division.h">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Operateur.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Expression.cpp">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/Soustraction.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Expression.h">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/main.cpp">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Multiplication.cpp">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/projet/CMakeLists.txt">
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Multiplication.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Operateur.cpp">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Operateur.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Soustraction.cpp">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/Soustraction.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/main.cpp">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
