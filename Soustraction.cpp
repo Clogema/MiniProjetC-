@@ -28,6 +28,9 @@ void Soustraction::Afficher(){
 }
 
 void Soustraction::Afficher_npi(){
+    _operandeGauche.Afficher();
+    _operandeDroite.Afficher();
+    cout<< "-";
 }
 
 Soustraction::Soustraction(const Soustraction& orig) {
