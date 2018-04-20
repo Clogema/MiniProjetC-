@@ -59,6 +59,7 @@ int main() {
     }
     while(chaine != "=");
     pile.top()->Afficher();
+    cout << " = " << pile.top()->Calculer();
 
         return 0;
 }
