@@ -24,6 +24,10 @@ virtual void Expression::Afficher(){
     
 };
 
+virtual void Expression::Afficher_npi(){
+    
+};
+
 Expression::~Expression() {
     
 }
