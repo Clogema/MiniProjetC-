@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Addition::Addition(Expression e1, Expression e2) {
+Addition::Addition(Constante e1, Constante e2) {
     _operandeGauche=e1;
     _operandeDroite=e2;
 }

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Soustraction::Soustraction(Expression e1, Expression e2) {
+Soustraction::Soustraction(Constante e1, Constante e2) {
     
     _operandeGauche=e1;
     _operandeDroite=e2;
@@ -30,7 +30,7 @@ void Soustraction::Afficher(){
 void Soustraction::Afficher_npi(){
 }
 
-Soustraction::Soustraction(const Addition& orig) {
+Soustraction::Soustraction(const Soustraction& orig) {
 }
 
 Soustraction::~Soustraction() {

@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-# Install script for directory: /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-
-=======
 # Install script for directory: /home/isen/Documents/M1/c++/MiniProjetC-
->>>>>>> Stashed changes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,9 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< Updated upstream
-file(WRITE "/home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-=======
 file(WRITE "/home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> Stashed changes
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

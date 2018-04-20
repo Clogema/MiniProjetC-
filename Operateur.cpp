@@ -13,18 +13,18 @@ Operateur::Operateur() {
 }
 
 
-Operateur::Operateur(const Addition& orig) {
+Operateur::Operateur(const Operateur& orig) {
 }
 
-virtual void Operateur::Calculer(){
+float Operateur::Calculer(){
     
 };
 
-virtual void Operateur::Afficher(){
+void Operateur::Afficher(){
     
 };
 
-virtual void Operateur::Afficher_npi(){
+void Operateur::Afficher_npi(){
     
 };
 

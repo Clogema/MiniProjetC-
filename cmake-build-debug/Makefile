@@ -48,17 +48,10 @@ RM = /home/isen/Documents/M1/c++/clion-2018.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< Updated upstream
-CMAKE_SOURCE_DIR = /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug
-=======
 CMAKE_SOURCE_DIR = /home/isen/Documents/M1/c++/MiniProjetC-
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug
->>>>>>> Stashed changes
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,15 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< Updated upstream
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isen/Documents/M1/C++/TP/mini-projet/MiniProjetC-/cmake-build-debug/CMakeFiles 0
-=======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles /home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/isen/Documents/M1/c++/MiniProjetC-/cmake-build-debug/CMakeFiles 0
->>>>>>> Stashed changes
 .PHONY : all
 
 # The main clean target

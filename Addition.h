@@ -5,21 +5,22 @@
 #ifndef ADDITION_H
 #define ADDITION_H
 
-#include "Expression.h"
+#include "Constante.h"
+#include "Operateur.h"
 
-class Addition {
+class Addition : public Operateur {
     
 public:
-    Addition(Expression e1, Expression e2);
+    Addition(Constante e1, Constante e2);
     Addition(const Addition& orig);
-    void Addition::Afficher();
-    void Addition::Afficher_npi();
-    float Addition::Calculer();
+    void Afficher();
+    void Afficher_npi();
+    float Calculer();
     ~Addition();
     
 private:
-    Expression _operandeGauche;
-    Expression _operandeDroite;
+    Constante _operandeGauche;
+    Constante _operandeDroite;
 
 };
 

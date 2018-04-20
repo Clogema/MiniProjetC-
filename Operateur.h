@@ -12,10 +12,10 @@ class Operateur : public Expression {
     
 public:
     Operateur();
-    Operateur(const Addition& orig);
-    virtual void Afficher();
-    virtual void Afficher_npi();
-    virtual float Calculer();
+    Operateur(const Operateur& orig);
+    void Afficher();
+    void Afficher_npi();
+    float Calculer();
     ~Operateur();
     
 private:
