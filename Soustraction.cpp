@@ -30,7 +30,7 @@ void Soustraction::Afficher(){
 void Soustraction::Afficher_npi(){
 }
 
-Soustraction::Soustraction(const Addition& orig) {
+Soustraction::Soustraction(const Soustraction& orig) {
 }
 
 Soustraction::~Soustraction() {
