@@ -6,6 +6,8 @@
 #define PROJET_EXPRESSION_H
 
 
+#include "Addition.h"
+
 class Expression {
     
 public:

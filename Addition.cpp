@@ -8,7 +8,6 @@
 using namespace std;
 
 Addition::Addition(Expression e1, Expression e2) {
-    Expression Add;
     _operandeGauche=e1;
     _operandeDroite=e2;
 }
