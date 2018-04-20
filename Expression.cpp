@@ -20,13 +20,9 @@ virtual void Expression::Calculer(){
     
 };
 
-virtual void Expression::Afficher(){
-    
-};
+virtual void Expression::Afficher()=0;
 
-virtual void Expression::Afficher_npi(){
-    
-};
+virtual void Expression::Afficher_npi()=0;
 
 Expression::~Expression() {
     
