@@ -19,18 +19,18 @@ float Division::Calculer(){
     return  _operandeGauche->Calculer() / _operandeDroite->Calculer();
 };
 
-void Division::Afficher(){
-    cout << "(";
-    _operandeGauche->Afficher();
-    cout<< "/";
-    _operandeDroite->Afficher();
-    cout << ")";
+void Division::Afficher(ostream &params){
+    params << "(";
+    _operandeGauche->Afficher(params);
+    params<< "/";
+    _operandeDroite->Afficher(params);
+    params << ")";
 }
 
-void Division::Afficher_npi(){
-    _operandeGauche->Afficher();
-    _operandeDroite->Afficher();
-    cout<< "/";
+void Division::Afficher_npi(ostream &params){
+    _operandeGauche->Afficher_npi(params);
+    _operandeDroite->Afficher_npi(params);
+    params<< "/";
 }
 
 Division::Division(const Division& orig) {

@@ -126,6 +126,12 @@
 		<Unit filename="/home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.h">
 			<Option target="projet"/>
 		</Unit>
+		<Unit filename="/home/isen/Documents/M1/c++/MiniProjetC-/Variable.cpp">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="/home/isen/Documents/M1/c++/MiniProjetC-/Variable.h">
+			<Option target="projet"/>
+		</Unit>
 		<Unit filename="/home/isen/Documents/M1/c++/MiniProjetC-/main.cpp">
 			<Option target="projet"/>
 		</Unit>

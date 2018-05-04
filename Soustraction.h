@@ -13,8 +13,8 @@ class Soustraction : public Operateur{
 public:
     Soustraction(Expression *e1, Expression *e2);
     Soustraction(const Soustraction& orig);
-    void Afficher();
-    void Afficher_npi();
+    void Afficher(ostream &params);
+    void Afficher_npi(ostream &params);
     float Calculer();
     ~Soustraction();
     

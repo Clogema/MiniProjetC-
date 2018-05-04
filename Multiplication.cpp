@@ -19,19 +19,19 @@ float Multiplication::Calculer(){
     return  _operandeGauche->Calculer() * _operandeDroite->Calculer();
 };
 
-void Multiplication::Afficher(){
+void Multiplication::Afficher(ostream &params){
 
-    cout << "(";
-    _operandeGauche->Afficher();
-    cout<< "*";
-    _operandeDroite->Afficher();
-    cout << ")";
+    params << "(";
+    _operandeGauche->Afficher(params);
+    params<< "*";
+    _operandeDroite->Afficher(params);
+    params << ")";
 }
 
-void Multiplication::Afficher_npi(){
-    _operandeGauche->Afficher();
-    _operandeDroite->Afficher();
-    cout<< "*";
+void Multiplication::Afficher_npi(ostream &params){
+    _operandeGauche->Afficher_npi(params);
+    _operandeDroite->Afficher_npi(params);
+    params<< "*";
 }
 
 Multiplication::Multiplication(const Multiplication& orig) {

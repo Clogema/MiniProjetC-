@@ -13,8 +13,8 @@ class Multiplication : public Operateur{
 public:
     Multiplication(Expression *e1, Expression *e2);
     Multiplication(const Multiplication& orig);
-    void Afficher();
-    void Afficher_npi();
+    void Afficher(ostream &params);
+    void Afficher_npi(ostream &params);
     float Calculer();
     ~Multiplication();
     

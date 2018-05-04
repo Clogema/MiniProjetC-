@@ -14,8 +14,8 @@ class Division : public Operateur {
 public:
     Division(Expression *e1, Expression *e2);
     Division(const Division& orig);
-    void Afficher();
-    void Afficher_npi();
+    void Afficher(ostream &params);
+    void Afficher_npi(ostream &params);
     float Calculer();
     ~Division();
     

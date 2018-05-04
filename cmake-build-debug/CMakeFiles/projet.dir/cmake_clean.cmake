@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/projet.dir/Soustraction.cpp.o"
   "CMakeFiles/projet.dir/Multiplication.cpp.o"
   "CMakeFiles/projet.dir/Division.cpp.o"
+  "CMakeFiles/projet.dir/Variable.cpp.o"
   "projet.pdb"
   "projet"
 )

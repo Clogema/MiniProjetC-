@@ -7,14 +7,15 @@
 
 #include "Constante.h"
 #include "Operateur.h"
+#include <ostream>
 
 class Addition : public Operateur {
     
 public:
     Addition(Expression* e1, Expression* e2);
     Addition(const Addition& orig);
-    void Afficher();
-    void Afficher_npi();
+    void Afficher(ostream &params);
+    void Afficher_npi(ostream &params);
     float Calculer();
     ~Addition();
     

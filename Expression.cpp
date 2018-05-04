@@ -15,7 +15,8 @@ Expression::Expression() {
 Expression::Expression(const Expression& orig) {
 }
 
-void Expression::Afficher(){
+float Expression::getFlag() {
+    return _flag;
 }
 
 Expression::~Expression() {

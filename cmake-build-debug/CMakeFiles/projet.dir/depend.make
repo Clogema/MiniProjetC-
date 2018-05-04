@@ -36,6 +36,10 @@ CMakeFiles/projet.dir/Soustraction.cpp.o: ../Operateur.h
 CMakeFiles/projet.dir/Soustraction.cpp.o: ../Soustraction.cpp
 CMakeFiles/projet.dir/Soustraction.cpp.o: ../Soustraction.h
 
+CMakeFiles/projet.dir/Variable.cpp.o: ../Expression.h
+CMakeFiles/projet.dir/Variable.cpp.o: ../Variable.cpp
+CMakeFiles/projet.dir/Variable.cpp.o: ../Variable.h
+
 CMakeFiles/projet.dir/main.cpp.o: ../Addition.h
 CMakeFiles/projet.dir/main.cpp.o: ../Constante.h
 CMakeFiles/projet.dir/main.cpp.o: ../Division.h
@@ -43,5 +47,6 @@ CMakeFiles/projet.dir/main.cpp.o: ../Expression.h
 CMakeFiles/projet.dir/main.cpp.o: ../Multiplication.h
 CMakeFiles/projet.dir/main.cpp.o: ../Operateur.h
 CMakeFiles/projet.dir/main.cpp.o: ../Soustraction.h
+CMakeFiles/projet.dir/main.cpp.o: ../Variable.h
 CMakeFiles/projet.dir/main.cpp.o: ../main.cpp
 

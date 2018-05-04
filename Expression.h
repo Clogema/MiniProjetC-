@@ -4,15 +4,21 @@
 
 #ifndef PROJET_EXPRESSION_H
 #define PROJET_EXPRESSION_H
+#include <ostream>
 
+using namespace std;
 
 class Expression {
-    
+
+protected:
+    float _flag;
+
 public:
     Expression();
     Expression(const Expression& orig);
-    virtual void Afficher()=0;
-    virtual void Afficher_npi()=0;
+    float getFlag();
+    virtual void Afficher(ostream &params)=0;
+    virtual void Afficher_npi(ostream &params)=0;
     virtual float Calculer()=0;
     ~Expression();
     

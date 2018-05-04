@@ -8,22 +8,24 @@ using namespace std;
 
 Constante::Constante(float valeur){
     _valeur = valeur;
+    _flag = 1;
 }
 
 Constante::Constante(const Constante& c) {
     _valeur = c._valeur;
+    _flag = 1;
 }
 
 Constante::~Constante(){
 }
 
-void Constante::Afficher() {
-    cout << _valeur;
+void Constante::Afficher(ostream &params) {
+    params << _valeur;
 }
 
 
-void Constante::Afficher_npi() {
-    cout << _valeur;
+void Constante::Afficher_npi(ostream &params) {
+    params << _valeur;
 }
 
 float Constante::Calculer() {

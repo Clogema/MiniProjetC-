@@ -9,24 +9,14 @@
 using namespace std;
 
 Operateur::Operateur() {
-   
+   _flag = 0;
 }
 
 
 Operateur::Operateur(const Operateur& orig) {
+    _flag = 0;
 }
 
-float Operateur::Calculer(){
-    return 0;
-};
-
-void Operateur::Afficher(){
-    
-};
-
-void Operateur::Afficher_npi(){
-    
-};
 
 Operateur::~Operateur() {
     

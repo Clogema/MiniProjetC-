@@ -17,6 +17,8 @@ Constante.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Constante.h
 Operateur.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Operateur.h
+ostream
+-
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Constante.cpp
 Constante.h
@@ -49,6 +51,8 @@ iostream
 -
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
+ostream
+-
 
 /home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.cpp
 Multiplication.h
@@ -88,6 +92,24 @@ Constante.h
 Operateur.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Operateur.h
 
+/home/isen/Documents/M1/c++/MiniProjetC-/Variable.cpp
+Variable.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Variable.h
+iostream
+-
+string
+-
+
+/home/isen/Documents/M1/c++/MiniProjetC-/Variable.h
+Expression.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
+iostream
+-
+string
+-
+ostream
+-
+
 /home/isen/Documents/M1/c++/MiniProjetC-/main.cpp
 iostream
 -
@@ -103,10 +125,14 @@ Multiplication.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.h
 Division.h
 /home/isen/Documents/M1/c++/MiniProjetC-/Division.h
+Variable.h
+/home/isen/Documents/M1/c++/MiniProjetC-/Variable.h
 cstdlib
 -
 stack
 -
-queue
+typeinfo
+-
+fstream
 -
 

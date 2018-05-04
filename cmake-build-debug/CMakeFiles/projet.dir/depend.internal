@@ -36,6 +36,10 @@ CMakeFiles/projet.dir/Soustraction.cpp.o
  /home/isen/Documents/M1/c++/MiniProjetC-/Operateur.h
  /home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.cpp
  /home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.h
+CMakeFiles/projet.dir/Variable.cpp.o
+ /home/isen/Documents/M1/c++/MiniProjetC-/Expression.h
+ /home/isen/Documents/M1/c++/MiniProjetC-/Variable.cpp
+ /home/isen/Documents/M1/c++/MiniProjetC-/Variable.h
 CMakeFiles/projet.dir/main.cpp.o
  /home/isen/Documents/M1/c++/MiniProjetC-/Addition.h
  /home/isen/Documents/M1/c++/MiniProjetC-/Constante.h
@@ -44,4 +48,5 @@ CMakeFiles/projet.dir/main.cpp.o
  /home/isen/Documents/M1/c++/MiniProjetC-/Multiplication.h
  /home/isen/Documents/M1/c++/MiniProjetC-/Operateur.h
  /home/isen/Documents/M1/c++/MiniProjetC-/Soustraction.h
+ /home/isen/Documents/M1/c++/MiniProjetC-/Variable.h
  /home/isen/Documents/M1/c++/MiniProjetC-/main.cpp
